@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [1.12.0](https://github.com/pypa/hatch/releases/tag/hatch-v1.12.0) - 2024-05-28 ## {: #hatch-v1.12.0 }
+
 ***Changed:***
 
 - The `run`/`env run` and `test` commands now treat inclusion variable options as an intersection rather than a union to allow for specific targeting of environments
@@ -15,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ***Added:***
 
 - Add ability to control the source of Python distributions
+- Upgrade Ruff to 0.4.5
 - Upgrade PyApp to 0.22.0 for binary builds
 
 ***Fixed:***
